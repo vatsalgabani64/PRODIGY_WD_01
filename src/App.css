@@ -1,0 +1,161 @@
+/* url('./components/assets/workout2.jpg'); */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/workout2.jpg');;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+.content-container {
+  padding-top: 100px; /* Adjust as needed based on the height of your navbar */
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;   
+} 
+
+.logo img {
+  height: 70px;
+  margin:10px;
+}
+
+.menu-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.menu-items li {
+  margin-right: 50px;
+}
+
+.menu-items li:last-child {
+  margin-right: 0;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  font-family: 'Arial', sans-serif; /* Change font style */
+  transition: color 0.3s ease;
+}
+
+.menu-items li a:hover {
+  color: #FFD700;
+}
+
+
+
+.content {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+/* Gallery Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid with min width 200px */
+  gap: 20px; /* Gap between grid items */
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Rounded corners for images */
+}
+
+
+/* Home page styles */
+.home-container {
+  padding: 20px;
+}
+
+.home-container h1,
+.home-container h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+/* App.css */
+
+.home-container {
+  max-width: 80%; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center align horizontally */
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.home-container h1 {
+  color: #f7f7f7; /* Lighter shade for heading text color */
+}
+
+.home-container p {
+  color: #dcdcdc; /* Lighter shade for paragraph text color */
+}
+
+
+/* App.css */
+
+.about-us-container {
+    max-width: 80%; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+.about-us-container h1 {
+  color: #f7f7f7;
+}
+
+.about-us-container p {
+  color: #f7f7f7;
+  line-height: 1.6;
+}
+
+
+
+.facilities-section,
+.personal-training-section,
+.group-fitness-section,
+.nutrition-section,
+.membership-section,
+.join-us-section {
+  margin-bottom: 40px;
+}
+
+
+
+.sample-image {
+  display: block;
+  margin: auto; /* Center align the images horizontally */
+  max-width: 90%; /* Adjust the max-width as needed */
+}
+
